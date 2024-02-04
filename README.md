@@ -30,10 +30,10 @@
 
 ## VNC là gì?
 
-- **VNC (Virtual Network Computing):** VNC là viết tắt của "Virtual Network Computing." Đây là một hệ thống chia sẻ màn hình chạy trên nhiều nền tảng, được tạo ra để điều khiển máy tính từ xa. Điều này có nghĩa là màn hình, bàn phím và chuột của một máy tính có thể được sử dụng từ xa bởi một người dùng từ một thiết bị phụ khác như họ đang ngồi trước máy tính đó.
+- VNC là viết tắt của "Virtual Network Computing." Đây là một hệ thống chia sẻ màn hình chạy trên nhiều nền tảng, được tạo ra để điều khiển máy tính từ xa. Điều này có nghĩa là màn hình, bàn phím và chuột của một máy tính có thể được sử dụng từ xa bởi một người dùng từ một thiết bị phụ khác như họ đang ngồi trước máy tính đó.
 
-  - VNC hoạt động dựa trên mô hình client/server. Một thành phần máy chủ được cài đặt trên máy tính từ xa (máy tính bạn muốn điều khiển), và một trình xem VNC, hoặc client, được cài đặt trên thiết bị bạn muốn kiểm soát từ xa. Điều này có thể là một máy tính khác, một máy tính bảng hoặc điện thoại di động. Khi máy chủ và trình xem kết nối, máy chủ truyền một bản sao của màn hình máy tính từ xa đến trình xem.
+- VNC hoạt động dựa trên mô hình client/server. Một thành phần máy chủ được cài đặt trên máy tính từ xa (máy tính bạn muốn điều khiển), và một trình xem VNC, hoặc client, được cài đặt trên thiết bị bạn muốn kiểm soát từ xa. Điều này có thể là một máy tính khác, một máy tính bảng hoặc điện thoại di động. Khi máy chủ và trình xem kết nối, máy chủ truyền một bản sao của màn hình máy tính từ xa đến trình xem.
   
-  - Không chỉ người dùng từ xa có thể nhìn thấy mọi thứ trên màn hình của máy tính từ xa, mà chương trình còn cho phép các lệnh từ bàn phím và chuột hoạt động trên máy tính từ xa, do đó người dùng kết nối có đầy đủ quyền kiểm soát (sau khi được cấp quyền từ máy tính từ xa).
+- Không chỉ người dùng từ xa có thể nhìn thấy mọi thứ trên màn hình của máy tính từ xa, mà chương trình còn cho phép các lệnh từ bàn phím và chuột hoạt động trên máy tính từ xa, do đó người dùng kết nối có đầy đủ quyền kiểm soát (sau khi được cấp quyền từ máy tính từ xa).
 
 - VNC được tạo ra tại Cambridge vào cuối những năm 1990 bởi những người sáng lập của RealVNC và đã được thương mại hóa vào năm 2002 khi công ty được thành lập.
