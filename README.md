@@ -1,5 +1,5 @@
-<h1>Phần 1. Tìm hiểu các khái niệm</h1>
-<h2>Docker là gì? Docker compose là gì?</h2>
+    <h1>Phần 1. Tìm hiểu các khái niệm</h1>
+    <h2>Docker là gì? Docker compose là gì?</h2>
     <ul>
         <li>
             Docker là nền tảng phần mềm cho phép chúng ta dựng, kiểm thử và triển khai ứng dụng một cách nhanh chóng. 
@@ -20,7 +20,6 @@
         </li>
     </ul>
     <h2>Linux, Unix, BSD, *nix là gì? macOS thuộc loại nào?</h2>
-    
     <ul>
         <li>
             <p>Linux, Unix, BSD, và *nix (ký hiệu cho "Unix-like") đều là các hệ điều hành thuộc dạng Unix-like, 
