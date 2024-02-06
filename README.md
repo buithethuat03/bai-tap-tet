@@ -1,3 +1,6 @@
+## Họ và tên: Bùi Thế Thuật
+## Mã sinh viên: 21020796
+
 # Phần 1. Tìm hiểu các khái niệm
 
 ## Docker là gì? Docker compose là gì?
