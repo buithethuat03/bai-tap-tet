@@ -40,3 +40,16 @@
 - Không chỉ người dùng từ xa có thể nhìn thấy mọi thứ trên màn hình của máy tính từ xa, mà chương trình còn cho phép các lệnh từ bàn phím và chuột hoạt động trên máy tính từ xa, do đó người dùng kết nối có đầy đủ quyền kiểm soát (sau khi được cấp quyền từ máy tính từ xa).
 
 - VNC được tạo ra tại Cambridge vào cuối những năm 1990 bởi những người sáng lập của RealVNC và đã được thương mại hóa vào năm 2002 khi công ty được thành lập.
+
+
+# Phần 2. Thực hành với docker
+1. Sau khi clone dự án về máy, mở terminal lên và chạy lệnh docker-compose up
+2. Sau khi build thành công, mở một terminal khác, chạy lệnh docker-compose exec app bash, lệnh này sẽ đưa ta vào trong terminal của máy ảo.
+3. Gõ các lệnh sau trong terminal vừa mở để cài đặt và chạy vncserver trên máy ảo:
+- touch /root/.Xresources
+- apt-get install dbus-x11
+- apt-get install x11-xserver-utils`
+- export USER=root
+- vncserver
+4. Vào vnc-viewer trên máy thật và xem dự án bằng địa chỉ localhost:5901 (password của máy ảo là password mình đã đặt trong Dockerfile)
+
